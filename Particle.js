@@ -1,8 +1,7 @@
 class Particles {
     constructor(x, y, r) {
         var options = {
-            restitution: 1,
-            friction: 0,
+            restitution: 0.5
         }
         this.r = 10;
         this.body = Bodies.circle(x, y, this.r, options);
